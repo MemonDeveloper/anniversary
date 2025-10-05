@@ -683,7 +683,7 @@
         // Pause auto-advance on hover
         slider.addEventListener('mouseenter', () => clearInterval(slideInterval));
         slider.addEventListener('mouseleave', () => {
-            slideInterval = setInterval(nextSlide, 2000);
+            slideInterval = setInterval(nextSlide, 8000);
         });
 
         // Initialize
